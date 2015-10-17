@@ -1,0 +1,1723 @@
+<!DOCTYPE html>
+<!-- saved from url=(0248)http://192.168.1.111/phpmyadmin/index.php?db=thaimart&table=user&server=1&target=db_datadict.php&token=d0bc4c7b48082d89ec181f168d30f82d#PMAURL-0:index.php?db=thaimart&table=user&server=1&target=db_datadict.php&token=d0bc4c7b48082d89ec181f168d30f82d -->
+<html lang="en" dir="ltr" style="display: block;"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta charset="utf-8"><meta name="robots" content="noindex,nofollow"><meta http-equiv="X-UA-Compatible" content="IE=Edge"><style>html{display: none;}</style><link rel="icon" href="http://192.168.1.111/phpmyadmin/favicon.ico" type="image/x-icon"><link rel="shortcut icon" href="http://192.168.1.111/phpmyadmin/favicon.ico" type="image/x-icon"><link rel="stylesheet" type="text/css" href="./Thaimart DataDic_files/print.css"><title>Print view - phpMyAdmin 4.0.10</title><script type="text/javascript" src="./Thaimart DataDic_files/get_scripts.js.php"></script><script type="text/javascript" src="./Thaimart DataDic_files/messages.php"></script><script type="text/javascript" src="./Thaimart DataDic_files/get_image.js.php"></script><script type="text/javascript">// <![CDATA[
+PMA_commonParams.setAll({common_query:"token=d0bc4c7b48082d89ec181f168d30f82d",opendb_url:"db_structure.php",safari_browser:"0",querywindow_height:"400",querywindow_width:"600",collation_connection:"utf8_general_ci",lang:"en",server:"1",table:"user",db:"thaimart",token:"d0bc4c7b48082d89ec181f168d30f82d",text_dir:"ltr",pma_absolute_uri:"http://192.168.1.111/phpmyadmin/",pma_text_default_tab:"Browse",pma_text_left_default_tab:"Structure",confirm:"1"});
+AJAX.scriptHandler.add("jquery/jquery-1.8.3.min.js",0).add("ajax.js",0).add("keyhandler.js",1).add("jquery/jquery-ui-1.9.2.custom.min.js",0).add("jquery/jquery.sprintf.js",0).add("jquery/jquery.cookie.js",0).add("jquery/jquery.mousewheel.js",0).add("jquery/jquery.event.drag-2.2.js",0).add("jquery/jquery-ui-timepicker-addon.js",0).add("jquery/jquery.ba-hashchange-1.3.js",0).add("jquery/jquery.debounce-1.0.5.js",0).add("jquery/jquery.menuResizer-1.0.js",0).add("cross_framing_protection.js",0).add("rte.js",1).add("messages.php?lang=en&amp;db=thaimart&amp;token=d0bc4c7b48082d89ec181f168d30f82d",0).add("get_image.js.php?theme=pmahomme",0).add("functions.js",1).add("navigation.js",0).add("indexes.js",1).add("common.js",1).add("codemirror/lib/codemirror.js",0).add("codemirror/mode/mysql/mysql.js",0);
+$(function() {AJAX.fireOnload("keyhandler.js");AJAX.fireOnload("rte.js");AJAX.fireOnload("functions.js");AJAX.fireOnload("indexes.js");AJAX.fireOnload("common.js");});
+// ]]></script></head><body><noscript>&lt;div class="error"&gt;&lt;img src="themes/dot.gif" title="" alt="" class="icon ic_s_error" /&gt; Javascript must be enabled past this point&lt;/div&gt;</noscript><div id="page_content"><div>
+<h2>car_list</h2>
+Table comments: ตารางรถ<br><br>
+<table width="100%" class="print">
+<tbody><tr><th width="50">Column</th>
+    <th width="80">Type</th>
+    <th width="40">Null</th>
+    <th width="70">Default</th>
+        <th>Comments</th>
+</tr>
+    <tr class="odd">
+    <td class="nowrap">
+        car_id    </td>
+    <td class="nowrap" lang="en" dir="ltr">int(11)</td>
+    <td>No</td>
+    <td class="nowrap"></td>
+            <td></td>
+</tr>
+        <tr class="even">
+    <td class="nowrap">
+        car_code    </td>
+    <td class="nowrap" lang="en" dir="ltr">varchar(10)</td>
+    <td>No</td>
+    <td class="nowrap"></td>
+            <td>ทะเบียนรถ</td>
+</tr>
+        <tr class="odd">
+    <td class="nowrap">
+        car_man    </td>
+    <td class="nowrap" lang="en" dir="ltr">varchar(100)</td>
+    <td>No</td>
+    <td class="nowrap"></td>
+            <td></td>
+</tr>
+        <tr class="even">
+    <td class="nowrap">
+        car detail    </td>
+    <td class="nowrap" lang="en" dir="ltr">text</td>
+    <td>No</td>
+    <td class="nowrap"></td>
+            <td></td>
+</tr>
+        </tbody></table>
+<h3>Indexes</h3><div class="no_indexes_defined hide"><div class="notice"><img src="./Thaimart DataDic_files/dot.gif" title="" alt="" class="icon ic_s_notice"> No index defined!</div></div><table id="table_index"><thead><tr><th>Keyname</th><th>Type</th><th>Unique</th><th>Packed</th><th>Column</th><th>Cardinality</th><th>Collation</th><th>Null</th></tr></thead><tbody><tr class="noclick odd"><td rowspan="1">PRIMARY</td><td rowspan="1">BTREE</td><td rowspan="1">Yes</td><td rowspan="1">No</td><td>car_id</td><td>2</td><td>A</td><td>No</td></tr></tbody></table></div>
+    <div>
+<h2>case</h2>
+Table comments: ตาราง เปิดcase PO/RT<br><br>
+<table width="100%" class="print">
+<tbody><tr><th width="50">Column</th>
+    <th width="80">Type</th>
+    <th width="40">Null</th>
+    <th width="70">Default</th>
+        <th>Comments</th>
+</tr>
+    <tr class="odd">
+    <td class="nowrap">
+        case_id    </td>
+    <td class="nowrap" lang="en" dir="ltr">int(11)</td>
+    <td>No</td>
+    <td class="nowrap"></td>
+            <td></td>
+</tr>
+        <tr class="even">
+    <td class="nowrap">
+        doc_id    </td>
+    <td class="nowrap" lang="en" dir="ltr">int(11)</td>
+    <td>No</td>
+    <td class="nowrap"></td>
+            <td>รหัสใบ PO/RT</td>
+</tr>
+        <tr class="odd">
+    <td class="nowrap">
+        case_type    </td>
+    <td class="nowrap" lang="en" dir="ltr">int(11)</td>
+    <td>No</td>
+    <td class="nowrap"></td>
+            <td></td>
+</tr>
+        <tr class="even">
+    <td class="nowrap">
+        user_create    </td>
+    <td class="nowrap" lang="en" dir="ltr">int(11)</td>
+    <td>No</td>
+    <td class="nowrap"></td>
+            <td></td>
+</tr>
+        <tr class="odd">
+    <td class="nowrap">
+        create_time    </td>
+    <td class="nowrap" lang="en" dir="ltr">datetime</td>
+    <td>No</td>
+    <td class="nowrap"></td>
+            <td></td>
+</tr>
+        <tr class="even">
+    <td class="nowrap">
+        user_update    </td>
+    <td class="nowrap" lang="en" dir="ltr">int(11)</td>
+    <td>Yes</td>
+    <td class="nowrap"><i>NULL</i></td>
+            <td></td>
+</tr>
+        <tr class="odd">
+    <td class="nowrap">
+        update_time    </td>
+    <td class="nowrap" lang="en" dir="ltr">datetime</td>
+    <td>Yes</td>
+    <td class="nowrap"><i>NULL</i></td>
+            <td></td>
+</tr>
+        <tr class="even">
+    <td class="nowrap">
+        status    </td>
+    <td class="nowrap" lang="en" dir="ltr">int(11)</td>
+    <td>No</td>
+    <td class="nowrap">0</td>
+            <td></td>
+</tr>
+        </tbody></table>
+<h3>Indexes</h3><div class="no_indexes_defined hide"><div class="notice"><img src="./Thaimart DataDic_files/dot.gif" title="" alt="" class="icon ic_s_notice"> No index defined!</div></div><table id="table_index"><thead><tr><th>Keyname</th><th>Type</th><th>Unique</th><th>Packed</th><th>Column</th><th>Cardinality</th><th>Collation</th><th>Null</th></tr></thead><tbody><tr class="noclick odd"><td rowspan="1">PRIMARY</td><td rowspan="1">BTREE</td><td rowspan="1">Yes</td><td rowspan="1">No</td><td>case_id</td><td>0</td><td>A</td><td>No</td></tr></tbody></table></div>
+    <div>
+<h2>inbound_location</h2>
+
+<table width="100%" class="print">
+<tbody><tr><th width="50">Column</th>
+    <th width="80">Type</th>
+    <th width="40">Null</th>
+    <th width="70">Default</th>
+        <th>Comments</th>
+</tr>
+    <tr class="odd">
+    <td class="nowrap">
+        inbound_location_id    </td>
+    <td class="nowrap" lang="en" dir="ltr">int(11)</td>
+    <td>No</td>
+    <td class="nowrap"></td>
+            <td></td>
+</tr>
+        <tr class="even">
+    <td class="nowrap">
+        inbound_id    </td>
+    <td class="nowrap" lang="en" dir="ltr">int(11)</td>
+    <td>No</td>
+    <td class="nowrap"></td>
+            <td>FK inbound_po</td>
+</tr>
+        <tr class="odd">
+    <td class="nowrap">
+        location_id    </td>
+    <td class="nowrap" lang="en" dir="ltr">varchar(50)</td>
+    <td>No</td>
+    <td class="nowrap"></td>
+            <td>id location</td>
+</tr>
+        <tr class="even">
+    <td class="nowrap">
+        qty    </td>
+    <td class="nowrap" lang="en" dir="ltr">int(11)</td>
+    <td>No</td>
+    <td class="nowrap"></td>
+            <td>จำนวน</td>
+</tr>
+        <tr class="odd">
+    <td class="nowrap">
+        qty_remain    </td>
+    <td class="nowrap" lang="en" dir="ltr">int(11)</td>
+    <td>No</td>
+    <td class="nowrap"></td>
+            <td>จำนวนคงเหลือ</td>
+</tr>
+        <tr class="even">
+    <td class="nowrap">
+        time    </td>
+    <td class="nowrap" lang="en" dir="ltr">datetime</td>
+    <td>No</td>
+    <td class="nowrap"></td>
+            <td>เวลาเก็บ</td>
+</tr>
+        <tr class="odd">
+    <td class="nowrap">
+        update_time    </td>
+    <td class="nowrap" lang="en" dir="ltr">datetime</td>
+    <td>No</td>
+    <td class="nowrap"></td>
+            <td></td>
+</tr>
+        <tr class="even">
+    <td class="nowrap">
+        user_id    </td>
+    <td class="nowrap" lang="en" dir="ltr">int(11)</td>
+    <td>No</td>
+    <td class="nowrap"></td>
+            <td>คนเก็บ</td>
+</tr>
+        <tr class="odd">
+    <td class="nowrap">
+        user_id_update    </td>
+    <td class="nowrap" lang="en" dir="ltr">int(11)</td>
+    <td>No</td>
+    <td class="nowrap">0</td>
+            <td>user ที่นำสินค้าออก</td>
+</tr>
+        <tr class="even">
+    <td class="nowrap">
+        note    </td>
+    <td class="nowrap" lang="en" dir="ltr">text</td>
+    <td>No</td>
+    <td class="nowrap"></td>
+            <td>หมายเหตุ</td>
+</tr>
+        </tbody></table>
+<h3>Indexes</h3><div class="no_indexes_defined hide"><div class="notice"><img src="./Thaimart DataDic_files/dot.gif" title="" alt="" class="icon ic_s_notice"> No index defined!</div></div><table id="table_index"><thead><tr><th>Keyname</th><th>Type</th><th>Unique</th><th>Packed</th><th>Column</th><th>Cardinality</th><th>Collation</th><th>Null</th></tr></thead><tbody><tr class="noclick odd"><td rowspan="1">PRIMARY</td><td rowspan="1">BTREE</td><td rowspan="1">Yes</td><td rowspan="1">No</td><td>inbound_location_id</td><td>9</td><td>A</td><td>No</td></tr><tr class="noclick even"><td rowspan="4">inbound_location_id</td><td rowspan="4">BTREE</td><td rowspan="4">No</td><td rowspan="4">No</td><td>inbound_location_id</td><td></td><td>A</td><td>No</td></tr><tr class="noclick even"><td>inbound_id</td><td></td><td>A</td><td>No</td></tr><tr class="noclick even"><td>location_id</td><td></td><td>A</td><td>No</td></tr><tr class="noclick even"><td>time</td><td></td><td>A</td><td>No</td></tr></tbody></table></div>
+    <div>
+<h2>inbound_po</h2>
+
+<table width="100%" class="print">
+<tbody><tr><th width="50">Column</th>
+    <th width="80">Type</th>
+    <th width="40">Null</th>
+    <th width="70">Default</th>
+        <th>Comments</th>
+</tr>
+    <tr class="odd">
+    <td class="nowrap">
+        inbound_id    </td>
+    <td class="nowrap" lang="en" dir="ltr">int(11)</td>
+    <td>No</td>
+    <td class="nowrap"></td>
+            <td></td>
+</tr>
+        <tr class="even">
+    <td class="nowrap">
+        po_id    </td>
+    <td class="nowrap" lang="en" dir="ltr">varchar(100)</td>
+    <td>No</td>
+    <td class="nowrap"></td>
+            <td>รหัสใบ po</td>
+</tr>
+        <tr class="odd">
+    <td class="nowrap">
+        po_create    </td>
+    <td class="nowrap" lang="en" dir="ltr">datetime</td>
+    <td>No</td>
+    <td class="nowrap"></td>
+            <td>วันที่สร้างใบ po</td>
+</tr>
+        <tr class="even">
+    <td class="nowrap">
+        po_delivery_date    </td>
+    <td class="nowrap" lang="en" dir="ltr">date</td>
+    <td>No</td>
+    <td class="nowrap"></td>
+            <td>กำหนดส่งของ</td>
+</tr>
+        <tr class="odd">
+    <td class="nowrap">
+        po_supplier    </td>
+    <td class="nowrap" lang="en" dir="ltr">varchar(100)</td>
+    <td>No</td>
+    <td class="nowrap"></td>
+            <td>รหัส ผู้ผลิต</td>
+</tr>
+        <tr class="even">
+    <td class="nowrap">
+        product_no    </td>
+    <td class="nowrap" lang="en" dir="ltr">varchar(150)</td>
+    <td>No</td>
+    <td class="nowrap"></td>
+            <td></td>
+</tr>
+        <tr class="odd">
+    <td class="nowrap">
+        product_name    </td>
+    <td class="nowrap" lang="en" dir="ltr">varchar(350)</td>
+    <td>No</td>
+    <td class="nowrap"></td>
+            <td></td>
+</tr>
+        <tr class="even">
+    <td class="nowrap">
+        product_qty    </td>
+    <td class="nowrap" lang="en" dir="ltr">decimal(20,0)</td>
+    <td>No</td>
+    <td class="nowrap"></td>
+            <td>จำนวน</td>
+</tr>
+        <tr class="odd">
+    <td class="nowrap">
+        product_unit    </td>
+    <td class="nowrap" lang="en" dir="ltr">varchar(100)</td>
+    <td>No</td>
+    <td class="nowrap"></td>
+            <td>หน่วยนับ</td>
+</tr>
+        <tr class="even">
+    <td class="nowrap">
+        product_date_in    </td>
+    <td class="nowrap" lang="en" dir="ltr">datetime</td>
+    <td>No</td>
+    <td class="nowrap"></td>
+            <td>วันที่นำเข้า</td>
+</tr>
+        <tr class="odd">
+    <td class="nowrap">
+        product_fefo    </td>
+    <td class="nowrap" lang="en" dir="ltr">int(1)</td>
+    <td>No</td>
+    <td class="nowrap">0</td>
+            <td>0=fifo , 1= fefo</td>
+</tr>
+        <tr class="even">
+    <td class="nowrap">
+        product_fefo_date    </td>
+    <td class="nowrap" lang="en" dir="ltr">date</td>
+    <td>Yes</td>
+    <td class="nowrap"><i>NULL</i></td>
+            <td>ถ้า แบบfefo วันที่หมดอาย</td>
+</tr>
+        <tr class="odd">
+    <td class="nowrap">
+        user_create    </td>
+    <td class="nowrap" lang="en" dir="ltr">int(11)</td>
+    <td>No</td>
+    <td class="nowrap"></td>
+            <td></td>
+</tr>
+        <tr class="even">
+    <td class="nowrap">
+        note    </td>
+    <td class="nowrap" lang="en" dir="ltr">text</td>
+    <td>No</td>
+    <td class="nowrap"></td>
+            <td>หมายเหตุ</td>
+</tr>
+        <tr class="odd">
+    <td class="nowrap">
+        po_status    </td>
+    <td class="nowrap" lang="en" dir="ltr">int(11)</td>
+    <td>No</td>
+    <td class="nowrap">0</td>
+            <td>1=เก็บของแล้ว</td>
+</tr>
+        <tr class="even">
+    <td class="nowrap">
+        po_start    </td>
+    <td class="nowrap" lang="en" dir="ltr">int(11)</td>
+    <td>No</td>
+    <td class="nowrap">0</td>
+            <td>1=เริ่มดำเนินการ</td>
+</tr>
+        <tr class="odd">
+    <td class="nowrap">
+        date_start    </td>
+    <td class="nowrap" lang="en" dir="ltr">datetime</td>
+    <td>No</td>
+    <td class="nowrap"></td>
+            <td>วันที่เริ่มดำเนินการ</td>
+</tr>
+        <tr class="even">
+    <td class="nowrap">
+        datecreate    </td>
+    <td class="nowrap" lang="en" dir="ltr">datetime</td>
+    <td>No</td>
+    <td class="nowrap"></td>
+            <td></td>
+</tr>
+        <tr class="odd">
+    <td class="nowrap">
+        dateupdate    </td>
+    <td class="nowrap" lang="en" dir="ltr">datetime</td>
+    <td>No</td>
+    <td class="nowrap"></td>
+            <td></td>
+</tr>
+        </tbody></table>
+<h3>Indexes</h3><div class="no_indexes_defined hide"><div class="notice"><img src="./Thaimart DataDic_files/dot.gif" title="" alt="" class="icon ic_s_notice"> No index defined!</div></div><table id="table_index"><thead><tr><th>Keyname</th><th>Type</th><th>Unique</th><th>Packed</th><th>Column</th><th>Cardinality</th><th>Collation</th><th>Null</th></tr></thead><tbody><tr class="noclick odd"><td rowspan="1">PRIMARY</td><td rowspan="1">BTREE</td><td rowspan="1">Yes</td><td rowspan="1">No</td><td>inbound_id</td><td>3712</td><td>A</td><td>No</td></tr><tr class="noclick even"><td rowspan="8">inbound_id</td><td rowspan="8">BTREE</td><td rowspan="8">No</td><td rowspan="8">No</td><td>inbound_id</td><td>3712</td><td>A</td><td>No</td></tr><tr class="noclick even"><td>po_id</td><td>3712</td><td>A</td><td>No</td></tr><tr class="noclick even"><td>po_supplier</td><td>3712</td><td>A</td><td>No</td></tr><tr class="noclick even"><td>product_no</td><td>3712</td><td>A</td><td>No</td></tr><tr class="noclick even"><td>product_date_in</td><td>3712</td><td>A</td><td>No</td></tr><tr class="noclick even"><td>product_fefo</td><td>3712</td><td>A</td><td>No</td></tr><tr class="noclick even"><td>product_fefo_date</td><td>3712</td><td>A</td><td>Yes</td></tr><tr class="noclick even"><td>user_create</td><td>3712</td><td>A</td><td>No</td></tr><tr class="noclick odd"><td rowspan="8">inbound_id_2</td><td rowspan="8">BTREE</td><td rowspan="8">No</td><td rowspan="8">No</td><td>inbound_id</td><td>3712</td><td>A</td><td>No</td></tr><tr class="noclick odd"><td>po_id</td><td>3712</td><td>A</td><td>No</td></tr><tr class="noclick odd"><td>po_supplier</td><td>3712</td><td>A</td><td>No</td></tr><tr class="noclick odd"><td>product_no</td><td>3712</td><td>A</td><td>No</td></tr><tr class="noclick odd"><td>product_date_in</td><td>3712</td><td>A</td><td>No</td></tr><tr class="noclick odd"><td>product_fefo</td><td>3712</td><td>A</td><td>No</td></tr><tr class="noclick odd"><td>product_fefo_date</td><td>3712</td><td>A</td><td>Yes</td></tr><tr class="noclick odd"><td>user_create</td><td>3712</td><td>A</td><td>No</td></tr></tbody></table></div>
+    <div>
+<h2>outbound_car</h2>
+Table comments: rt ไปรถ คันไหน<br><br>
+<table width="100%" class="print">
+<tbody><tr><th width="50">Column</th>
+    <th width="80">Type</th>
+    <th width="40">Null</th>
+    <th width="70">Default</th>
+        <th>Comments</th>
+</tr>
+    <tr class="odd">
+    <td class="nowrap">
+        out_car_id    </td>
+    <td class="nowrap" lang="en" dir="ltr">int(11)</td>
+    <td>No</td>
+    <td class="nowrap"></td>
+            <td></td>
+</tr>
+        <tr class="even">
+    <td class="nowrap">
+        car_id    </td>
+    <td class="nowrap" lang="en" dir="ltr">int(11)</td>
+    <td>No</td>
+    <td class="nowrap"></td>
+            <td>FK car_list</td>
+</tr>
+        <tr class="odd">
+    <td class="nowrap">
+        outbound_rt    </td>
+    <td class="nowrap" lang="en" dir="ltr">varchar(100)</td>
+    <td>No</td>
+    <td class="nowrap"></td>
+            <td>FK outbound_rt</td>
+</tr>
+        <tr class="even">
+    <td class="nowrap">
+        user_id    </td>
+    <td class="nowrap" lang="en" dir="ltr">int(11)</td>
+    <td>No</td>
+    <td class="nowrap"></td>
+            <td></td>
+</tr>
+        <tr class="odd">
+    <td class="nowrap">
+        date_time    </td>
+    <td class="nowrap" lang="en" dir="ltr">datetime</td>
+    <td>No</td>
+    <td class="nowrap"></td>
+            <td></td>
+</tr>
+        <tr class="even">
+    <td class="nowrap">
+        status_process    </td>
+    <td class="nowrap" lang="en" dir="ltr">int(1)</td>
+    <td>No</td>
+    <td class="nowrap">0</td>
+            <td>0.รอรถออก 1. ออกรถไปสาขา 2.ถึงสาขา</td>
+</tr>
+        </tbody></table>
+<h3>Indexes</h3><div class="no_indexes_defined hide"><div class="notice"><img src="./Thaimart DataDic_files/dot.gif" title="" alt="" class="icon ic_s_notice"> No index defined!</div></div><table id="table_index"><thead><tr><th>Keyname</th><th>Type</th><th>Unique</th><th>Packed</th><th>Column</th><th>Cardinality</th><th>Collation</th><th>Null</th></tr></thead><tbody><tr class="noclick odd"><td rowspan="1">PRIMARY</td><td rowspan="1">BTREE</td><td rowspan="1">Yes</td><td rowspan="1">No</td><td>out_car_id</td><td>1</td><td>A</td><td>No</td></tr></tbody></table></div>
+    <div>
+<h2>outbound_check</h2>
+
+<table width="100%" class="print">
+<tbody><tr><th width="50">Column</th>
+    <th width="80">Type</th>
+    <th width="40">Null</th>
+    <th width="70">Default</th>
+        <th>Comments</th>
+</tr>
+    <tr class="odd">
+    <td class="nowrap">
+        id    </td>
+    <td class="nowrap" lang="en" dir="ltr">int(11)</td>
+    <td>No</td>
+    <td class="nowrap"></td>
+            <td>Primary</td>
+</tr>
+        <tr class="even">
+    <td class="nowrap">
+        user_id    </td>
+    <td class="nowrap" lang="en" dir="ltr">int(11)</td>
+    <td>No</td>
+    <td class="nowrap"></td>
+            <td>userID ผู้ปฏิบัติงาน</td>
+</tr>
+        <tr class="odd">
+    <td class="nowrap">
+        outbound_id    </td>
+    <td class="nowrap" lang="en" dir="ltr">int(11)</td>
+    <td>No</td>
+    <td class="nowrap"></td>
+            <td>relation with outbound_rt.id</td>
+</tr>
+        <tr class="even">
+    <td class="nowrap">
+        check_qty    </td>
+    <td class="nowrap" lang="en" dir="ltr">int(11)</td>
+    <td>No</td>
+    <td class="nowrap"></td>
+            <td>จำนวนที่เช็คได้จริง</td>
+</tr>
+        <tr class="odd">
+    <td class="nowrap">
+        check_status    </td>
+    <td class="nowrap" lang="en" dir="ltr">tinyint(4)</td>
+    <td>No</td>
+    <td class="nowrap">1</td>
+            <td>0-checked, 1-uncheck</td>
+</tr>
+        <tr class="even">
+    <td class="nowrap">
+        check_remark    </td>
+    <td class="nowrap" lang="en" dir="ltr">text</td>
+    <td>No</td>
+    <td class="nowrap"></td>
+            <td>หมายเหตุในการเช็คสินค้า</td>
+</tr>
+        <tr class="odd">
+    <td class="nowrap">
+        date_create    </td>
+    <td class="nowrap" lang="en" dir="ltr">datetime</td>
+    <td>No</td>
+    <td class="nowrap"></td>
+            <td>วันที่สร้าง record</td>
+</tr>
+        <tr class="even">
+    <td class="nowrap">
+        date_update    </td>
+    <td class="nowrap" lang="en" dir="ltr">datetime</td>
+    <td>No</td>
+    <td class="nowrap"></td>
+            <td>วันที่แก้ไข record</td>
+</tr>
+        <tr class="odd">
+    <td class="nowrap">
+        status    </td>
+    <td class="nowrap" lang="en" dir="ltr">tinyint(4)</td>
+    <td>No</td>
+    <td class="nowrap">0</td>
+            <td>0-active, 1-inactive</td>
+</tr>
+        </tbody></table>
+<h3>Indexes</h3><div class="no_indexes_defined hide"><div class="notice"><img src="./Thaimart DataDic_files/dot.gif" title="" alt="" class="icon ic_s_notice"> No index defined!</div></div><table id="table_index"><thead><tr><th>Keyname</th><th>Type</th><th>Unique</th><th>Packed</th><th>Column</th><th>Cardinality</th><th>Collation</th><th>Null</th></tr></thead><tbody><tr class="noclick odd"><td rowspan="1">PRIMARY</td><td rowspan="1">BTREE</td><td rowspan="1">Yes</td><td rowspan="1">No</td><td>id</td><td>5</td><td>A</td><td>No</td></tr></tbody></table></div>
+    <div>
+<h2>outbound_check_log</h2>
+
+<table width="100%" class="print">
+<tbody><tr><th width="50">Column</th>
+    <th width="80">Type</th>
+    <th width="40">Null</th>
+    <th width="70">Default</th>
+        <th>Comments</th>
+</tr>
+    <tr class="odd">
+    <td class="nowrap">
+        id    </td>
+    <td class="nowrap" lang="en" dir="ltr">int(11)</td>
+    <td>No</td>
+    <td class="nowrap"></td>
+            <td>Primary</td>
+</tr>
+        <tr class="even">
+    <td class="nowrap">
+        outbound_check_id    </td>
+    <td class="nowrap" lang="en" dir="ltr">int(11)</td>
+    <td>No</td>
+    <td class="nowrap"></td>
+            <td>relation with outbound_check.id</td>
+</tr>
+        <tr class="odd">
+    <td class="nowrap">
+        user_id    </td>
+    <td class="nowrap" lang="en" dir="ltr">int(11)</td>
+    <td>No</td>
+    <td class="nowrap"></td>
+            <td>userID ผู้ปฏิบัติงาน</td>
+</tr>
+        <tr class="even">
+    <td class="nowrap">
+        outbound_id    </td>
+    <td class="nowrap" lang="en" dir="ltr">int(11)</td>
+    <td>No</td>
+    <td class="nowrap"></td>
+            <td>relation with outbound_rt.id</td>
+</tr>
+        <tr class="odd">
+    <td class="nowrap">
+        check_qty    </td>
+    <td class="nowrap" lang="en" dir="ltr">int(11)</td>
+    <td>No</td>
+    <td class="nowrap"></td>
+            <td>จำนวนที่เช็คได้จริง</td>
+</tr>
+        <tr class="even">
+    <td class="nowrap">
+        check_status    </td>
+    <td class="nowrap" lang="en" dir="ltr">tinyint(4)</td>
+    <td>No</td>
+    <td class="nowrap">1</td>
+            <td>0-checked, 1-uncheck</td>
+</tr>
+        <tr class="odd">
+    <td class="nowrap">
+        check_remark    </td>
+    <td class="nowrap" lang="en" dir="ltr">text</td>
+    <td>No</td>
+    <td class="nowrap"></td>
+            <td>หมายเหตุในการเช็คสินค้า</td>
+</tr>
+        <tr class="even">
+    <td class="nowrap">
+        date_create    </td>
+    <td class="nowrap" lang="en" dir="ltr">datetime</td>
+    <td>No</td>
+    <td class="nowrap"></td>
+            <td>วันที่สร้าง record</td>
+</tr>
+        </tbody></table>
+<h3>Indexes</h3><div class="no_indexes_defined hide"><div class="notice"><img src="./Thaimart DataDic_files/dot.gif" title="" alt="" class="icon ic_s_notice"> No index defined!</div></div><table id="table_index"><thead><tr><th>Keyname</th><th>Type</th><th>Unique</th><th>Packed</th><th>Column</th><th>Cardinality</th><th>Collation</th><th>Null</th></tr></thead><tbody><tr class="noclick odd"><td rowspan="1">PRIMARY</td><td rowspan="1">BTREE</td><td rowspan="1">Yes</td><td rowspan="1">No</td><td>id</td><td>132</td><td>A</td><td>No</td></tr></tbody></table></div>
+    <div>
+<h2>outbound_items_location</h2>
+
+<table width="100%" class="print">
+<tbody><tr><th width="50">Column</th>
+    <th width="80">Type</th>
+    <th width="40">Null</th>
+    <th width="70">Default</th>
+        <th>Comments</th>
+</tr>
+    <tr class="odd">
+    <td class="nowrap">
+        id    </td>
+    <td class="nowrap" lang="en" dir="ltr">int(11)</td>
+    <td>No</td>
+    <td class="nowrap"></td>
+            <td>Primary</td>
+</tr>
+        <tr class="even">
+    <td class="nowrap">
+        user_id    </td>
+    <td class="nowrap" lang="en" dir="ltr">int(11)</td>
+    <td>No</td>
+    <td class="nowrap"></td>
+            <td>userID ผู้ปฏิบัติงาน</td>
+</tr>
+        <tr class="odd">
+    <td class="nowrap">
+        date_out    </td>
+    <td class="nowrap" lang="en" dir="ltr">datetime</td>
+    <td>No</td>
+    <td class="nowrap"></td>
+            <td>วันที่นำสินค้าออกมา</td>
+</tr>
+        <tr class="even">
+    <td class="nowrap">
+        outbound_id    </td>
+    <td class="nowrap" lang="en" dir="ltr">int(11)</td>
+    <td>No</td>
+    <td class="nowrap"></td>
+            <td>relation to outbound.id</td>
+</tr>
+        <tr class="odd">
+    <td class="nowrap">
+        qty    </td>
+    <td class="nowrap" lang="en" dir="ltr">int(11)</td>
+    <td>No</td>
+    <td class="nowrap"></td>
+            <td>จำนวนสินค้าที่นำออกมา</td>
+</tr>
+        <tr class="even">
+    <td class="nowrap">
+        location_id    </td>
+    <td class="nowrap" lang="en" dir="ltr">int(11)</td>
+    <td>No</td>
+    <td class="nowrap"></td>
+            <td>location ID ที่นำสินค้าออกมา</td>
+</tr>
+        <tr class="odd">
+    <td class="nowrap">
+        remark    </td>
+    <td class="nowrap" lang="en" dir="ltr">text</td>
+    <td>Yes</td>
+    <td class="nowrap"><i>NULL</i></td>
+            <td>หมายเหตุ/note</td>
+</tr>
+        <tr class="even">
+    <td class="nowrap">
+        date_create    </td>
+    <td class="nowrap" lang="en" dir="ltr">datetime</td>
+    <td>No</td>
+    <td class="nowrap"></td>
+            <td>วันที่สร้าง record</td>
+</tr>
+        <tr class="odd">
+    <td class="nowrap">
+        date_update    </td>
+    <td class="nowrap" lang="en" dir="ltr">datetime</td>
+    <td>No</td>
+    <td class="nowrap"></td>
+            <td>วันทีแก้ไข record</td>
+</tr>
+        <tr class="even">
+    <td class="nowrap">
+        status    </td>
+    <td class="nowrap" lang="en" dir="ltr">tinyint(4)</td>
+    <td>No</td>
+    <td class="nowrap">0</td>
+            <td>0=active, 1=inactive</td>
+</tr>
+        </tbody></table>
+<h3>Indexes</h3><div class="no_indexes_defined hide"><div class="notice"><img src="./Thaimart DataDic_files/dot.gif" title="" alt="" class="icon ic_s_notice"> No index defined!</div></div><table id="table_index"><thead><tr><th>Keyname</th><th>Type</th><th>Unique</th><th>Packed</th><th>Column</th><th>Cardinality</th><th>Collation</th><th>Null</th></tr></thead><tbody><tr class="noclick odd"><td rowspan="1">PRIMARY</td><td rowspan="1">BTREE</td><td rowspan="1">Yes</td><td rowspan="1">No</td><td>id</td><td>35</td><td>A</td><td>No</td></tr><tr class="noclick even"><td rowspan="1">outbound_id</td><td rowspan="1">BTREE</td><td rowspan="1">No</td><td rowspan="1">No</td><td>outbound_id</td><td></td><td>A</td><td>No</td></tr></tbody></table></div>
+    <div>
+<h2>outbound_items_location_log</h2>
+
+<table width="100%" class="print">
+<tbody><tr><th width="50">Column</th>
+    <th width="80">Type</th>
+    <th width="40">Null</th>
+    <th width="70">Default</th>
+        <th>Comments</th>
+</tr>
+    <tr class="odd">
+    <td class="nowrap">
+        id    </td>
+    <td class="nowrap" lang="en" dir="ltr">int(11)</td>
+    <td>No</td>
+    <td class="nowrap"></td>
+            <td>Primary</td>
+</tr>
+        <tr class="even">
+    <td class="nowrap">
+        outbound_items_id    </td>
+    <td class="nowrap" lang="en" dir="ltr">int(11)</td>
+    <td>No</td>
+    <td class="nowrap"></td>
+            <td>relation with outbound_items_location.id</td>
+</tr>
+        <tr class="odd">
+    <td class="nowrap">
+        user_id    </td>
+    <td class="nowrap" lang="en" dir="ltr">int(11)</td>
+    <td>No</td>
+    <td class="nowrap"></td>
+            <td>userID ผู้ปฏิบัติงาน</td>
+</tr>
+        <tr class="even">
+    <td class="nowrap">
+        date_out    </td>
+    <td class="nowrap" lang="en" dir="ltr">datetime</td>
+    <td>No</td>
+    <td class="nowrap"></td>
+            <td>วันที่นำสินค้าออก</td>
+</tr>
+        <tr class="odd">
+    <td class="nowrap">
+        outbound_id    </td>
+    <td class="nowrap" lang="en" dir="ltr">int(11)</td>
+    <td>No</td>
+    <td class="nowrap"></td>
+            <td>relation to outbound.id</td>
+</tr>
+        <tr class="even">
+    <td class="nowrap">
+        qty    </td>
+    <td class="nowrap" lang="en" dir="ltr">int(11)</td>
+    <td>No</td>
+    <td class="nowrap"></td>
+            <td>จำนวนสินค้าที่นำออก</td>
+</tr>
+        <tr class="odd">
+    <td class="nowrap">
+        location_id    </td>
+    <td class="nowrap" lang="en" dir="ltr">int(11)</td>
+    <td>No</td>
+    <td class="nowrap"></td>
+            <td>location ID ที่นำสินค้าออก</td>
+</tr>
+        <tr class="even">
+    <td class="nowrap">
+        remark    </td>
+    <td class="nowrap" lang="en" dir="ltr">text</td>
+    <td>Yes</td>
+    <td class="nowrap"><i>NULL</i></td>
+            <td>หมายเหตุ/note</td>
+</tr>
+        <tr class="odd">
+    <td class="nowrap">
+        date_create    </td>
+    <td class="nowrap" lang="en" dir="ltr">datetime</td>
+    <td>No</td>
+    <td class="nowrap"></td>
+            <td>วันที่สร้าง record</td>
+</tr>
+        <tr class="even">
+    <td class="nowrap">
+        status    </td>
+    <td class="nowrap" lang="en" dir="ltr">tinyint(4)</td>
+    <td>No</td>
+    <td class="nowrap">0</td>
+            <td>0=active, 1=inactive</td>
+</tr>
+        </tbody></table>
+<h3>Indexes</h3><div class="no_indexes_defined hide"><div class="notice"><img src="./Thaimart DataDic_files/dot.gif" title="" alt="" class="icon ic_s_notice"> No index defined!</div></div><table id="table_index"><thead><tr><th>Keyname</th><th>Type</th><th>Unique</th><th>Packed</th><th>Column</th><th>Cardinality</th><th>Collation</th><th>Null</th></tr></thead><tbody><tr class="noclick odd"><td rowspan="1">PRIMARY</td><td rowspan="1">BTREE</td><td rowspan="1">Yes</td><td rowspan="1">No</td><td>id</td><td>35</td><td>A</td><td>No</td></tr><tr class="noclick even"><td rowspan="1">outbound_id</td><td rowspan="1">BTREE</td><td rowspan="1">No</td><td rowspan="1">No</td><td>outbound_id</td><td></td><td>A</td><td>No</td></tr></tbody></table></div>
+    <div>
+<h2>outbound_report</h2>
+
+<table width="100%" class="print">
+<tbody><tr><th width="50">Column</th>
+    <th width="80">Type</th>
+    <th width="40">Null</th>
+    <th width="70">Default</th>
+        <th>Comments</th>
+</tr>
+    <tr class="odd">
+    <td class="nowrap">
+        id    </td>
+    <td class="nowrap" lang="en" dir="ltr">int(11)</td>
+    <td>No</td>
+    <td class="nowrap"></td>
+            <td>Primary</td>
+</tr>
+        <tr class="even">
+    <td class="nowrap">
+        rt_refid    </td>
+    <td class="nowrap" lang="en" dir="ltr">varchar(50)</td>
+    <td>No</td>
+    <td class="nowrap"></td>
+            <td>หมายเลขใบ RT</td>
+</tr>
+        <tr class="odd">
+    <td class="nowrap">
+        type    </td>
+    <td lang="en" dir="ltr">enum('RT', 'BC', 'CHK')</td>
+    <td>No</td>
+    <td class="nowrap"></td>
+            <td>ชนิดของ Remark RT=commentRTorder, BC=commentตามรายการสินค้า</td>
+</tr>
+        <tr class="even">
+    <td class="nowrap">
+        barcode    </td>
+    <td class="nowrap" lang="en" dir="ltr">varchar(100)</td>
+    <td>Yes</td>
+    <td class="nowrap"><i>NULL</i></td>
+            <td>รหัสสินค้า</td>
+</tr>
+        <tr class="odd">
+    <td class="nowrap">
+        type_damage    </td>
+    <td lang="en" dir="ltr">enum('DP', 'WO')</td>
+    <td>Yes</td>
+    <td class="nowrap"><i>NULL</i></td>
+            <td>ชนิดของความเสียหายของสินค้า DP-disappear(หาย), WO-worn-out(ชำรุด/หมดอายุ)</td>
+</tr>
+        <tr class="even">
+    <td class="nowrap">
+        qty_diff    </td>
+    <td class="nowrap" lang="en" dir="ltr">int(11)</td>
+    <td>Yes</td>
+    <td class="nowrap"><i>NULL</i></td>
+            <td>จำนวนสินค้าที่เสียหาย</td>
+</tr>
+        <tr class="odd">
+    <td class="nowrap">
+        detail    </td>
+    <td class="nowrap" lang="en" dir="ltr">text</td>
+    <td>Yes</td>
+    <td class="nowrap"><i>NULL</i></td>
+            <td>รายละเอียด</td>
+</tr>
+        <tr class="even">
+    <td class="nowrap">
+        user_id    </td>
+    <td class="nowrap" lang="en" dir="ltr">int(11)</td>
+    <td>Yes</td>
+    <td class="nowrap"><i>NULL</i></td>
+            <td>userID ผู้ปฏิบัติงาน</td>
+</tr>
+        <tr class="odd">
+    <td class="nowrap">
+        date_create    </td>
+    <td class="nowrap" lang="en" dir="ltr">datetime</td>
+    <td>No</td>
+    <td class="nowrap"></td>
+            <td>วันที่สร้าง record</td>
+</tr>
+        <tr class="even">
+    <td class="nowrap">
+        date_update    </td>
+    <td class="nowrap" lang="en" dir="ltr">datetime</td>
+    <td>No</td>
+    <td class="nowrap"></td>
+            <td>วันที่แก้ไข record</td>
+</tr>
+        <tr class="odd">
+    <td class="nowrap">
+        status    </td>
+    <td class="nowrap" lang="en" dir="ltr">tinyint(1)</td>
+    <td>No</td>
+    <td class="nowrap">0</td>
+            <td>0=active, 1=inactive</td>
+</tr>
+        </tbody></table>
+<h3>Indexes</h3><div class="no_indexes_defined hide"><div class="notice"><img src="./Thaimart DataDic_files/dot.gif" title="" alt="" class="icon ic_s_notice"> No index defined!</div></div><table id="table_index"><thead><tr><th>Keyname</th><th>Type</th><th>Unique</th><th>Packed</th><th>Column</th><th>Cardinality</th><th>Collation</th><th>Null</th></tr></thead><tbody><tr class="noclick odd"><td rowspan="1">PRIMARY</td><td rowspan="1">BTREE</td><td rowspan="1">Yes</td><td rowspan="1">No</td><td>id</td><td>16</td><td>A</td><td>No</td></tr></tbody></table></div>
+    <div>
+<h2>outbound_rt</h2>
+
+<table width="100%" class="print">
+<tbody><tr><th width="50">Column</th>
+    <th width="80">Type</th>
+    <th width="40">Null</th>
+    <th width="70">Default</th>
+        <th>Comments</th>
+</tr>
+    <tr class="odd">
+    <td class="nowrap">
+        id    </td>
+    <td class="nowrap" lang="en" dir="ltr">int(11)</td>
+    <td>No</td>
+    <td class="nowrap"></td>
+            <td>Primary</td>
+</tr>
+        <tr class="even">
+    <td class="nowrap">
+        user_id    </td>
+    <td class="nowrap" lang="en" dir="ltr">int(11)</td>
+    <td>No</td>
+    <td class="nowrap"></td>
+            <td>user id ผู้ปฏิบัติงาน</td>
+</tr>
+        <tr class="odd">
+    <td class="nowrap">
+        rt_refid    </td>
+    <td class="nowrap" lang="en" dir="ltr">varchar(50)</td>
+    <td>No</td>
+    <td class="nowrap"></td>
+            <td>หมายเลขใบ RT</td>
+</tr>
+        <tr class="even">
+    <td class="nowrap">
+        rt_date    </td>
+    <td class="nowrap" lang="en" dir="ltr">datetime</td>
+    <td>No</td>
+    <td class="nowrap"></td>
+            <td>วันที่ออกใบ RT</td>
+</tr>
+        <tr class="odd">
+    <td class="nowrap">
+        rt_qty    </td>
+    <td class="nowrap" lang="en" dir="ltr">int(11)</td>
+    <td>No</td>
+    <td class="nowrap"></td>
+            <td>quantity of RT</td>
+</tr>
+        <tr class="even">
+    <td class="nowrap">
+        rt_success    </td>
+    <td class="nowrap" lang="en" dir="ltr">tinyint(4)</td>
+    <td>No</td>
+    <td class="nowrap">1</td>
+            <td>ได้ของครบหรือไม่ 0=success, 1=unsuccess</td>
+</tr>
+        <tr class="odd">
+    <td class="nowrap">
+        barcode    </td>
+    <td class="nowrap" lang="en" dir="ltr">varchar(100)</td>
+    <td>No</td>
+    <td class="nowrap"></td>
+            <td>รหัสสินค้า</td>
+</tr>
+        <tr class="even">
+    <td class="nowrap">
+        goods_name    </td>
+    <td class="nowrap" lang="en" dir="ltr">text</td>
+    <td>No</td>
+    <td class="nowrap"></td>
+            <td>ชื่อสินค้า</td>
+</tr>
+        <tr class="odd">
+    <td class="nowrap">
+        unit    </td>
+    <td class="nowrap" lang="en" dir="ltr">varchar(100)</td>
+    <td>No</td>
+    <td class="nowrap"></td>
+            <td>หน่วยสินค้า</td>
+</tr>
+        <tr class="even">
+    <td class="nowrap">
+        qty_amount    </td>
+    <td class="nowrap" lang="en" dir="ltr">int(11)</td>
+    <td>No</td>
+    <td class="nowrap"></td>
+            <td>จำนวนสินค้าที่มีในสต็อก</td>
+</tr>
+        <tr class="odd">
+    <td class="nowrap">
+        remark    </td>
+    <td class="nowrap" lang="en" dir="ltr">text</td>
+    <td>Yes</td>
+    <td class="nowrap"><i>NULL</i></td>
+            <td>หมายเหตุ/note</td>
+</tr>
+        <tr class="even">
+    <td class="nowrap">
+        date_create    </td>
+    <td class="nowrap" lang="en" dir="ltr">datetime</td>
+    <td>No</td>
+    <td class="nowrap"></td>
+            <td>วันที่สร้าง</td>
+</tr>
+        <tr class="odd">
+    <td class="nowrap">
+        date_update    </td>
+    <td class="nowrap" lang="en" dir="ltr">datetime</td>
+    <td>No</td>
+    <td class="nowrap"></td>
+            <td>วันที่อัพเดท</td>
+</tr>
+        <tr class="even">
+    <td class="nowrap">
+        status    </td>
+    <td class="nowrap" lang="en" dir="ltr">tinyint(4)</td>
+    <td>No</td>
+    <td class="nowrap">0</td>
+            <td>record status 0=active, 1=inactive</td>
+</tr>
+        </tbody></table>
+<h3>Indexes</h3><div class="no_indexes_defined hide"><div class="notice"><img src="./Thaimart DataDic_files/dot.gif" title="" alt="" class="icon ic_s_notice"> No index defined!</div></div><table id="table_index"><thead><tr><th>Keyname</th><th>Type</th><th>Unique</th><th>Packed</th><th>Column</th><th>Cardinality</th><th>Collation</th><th>Null</th></tr></thead><tbody><tr class="noclick odd"><td rowspan="1">PRIMARY</td><td rowspan="1">BTREE</td><td rowspan="1">Yes</td><td rowspan="1">No</td><td>id</td><td>27</td><td>A</td><td>No</td></tr></tbody></table></div>
+    <div>
+<h2>outbound_rt_log</h2>
+
+<table width="100%" class="print">
+<tbody><tr><th width="50">Column</th>
+    <th width="80">Type</th>
+    <th width="40">Null</th>
+    <th width="70">Default</th>
+        <th>Comments</th>
+</tr>
+    <tr class="odd">
+    <td class="nowrap">
+        id    </td>
+    <td class="nowrap" lang="en" dir="ltr">int(11)</td>
+    <td>No</td>
+    <td class="nowrap"></td>
+            <td>Primary</td>
+</tr>
+        <tr class="even">
+    <td class="nowrap">
+        outbound_rt_id    </td>
+    <td class="nowrap" lang="en" dir="ltr">int(11)</td>
+    <td>No</td>
+    <td class="nowrap"></td>
+            <td>relation with outbound_rt.id</td>
+</tr>
+        <tr class="odd">
+    <td class="nowrap">
+        user_id    </td>
+    <td class="nowrap" lang="en" dir="ltr">int(11)</td>
+    <td>No</td>
+    <td class="nowrap"></td>
+            <td>userID ผู้ปฏิบัติงาน</td>
+</tr>
+        <tr class="even">
+    <td class="nowrap">
+        rt_refid    </td>
+    <td class="nowrap" lang="en" dir="ltr">varchar(50)</td>
+    <td>No</td>
+    <td class="nowrap"></td>
+            <td>หมายเลขใบ RT</td>
+</tr>
+        <tr class="odd">
+    <td class="nowrap">
+        rt_date    </td>
+    <td class="nowrap" lang="en" dir="ltr">datetime</td>
+    <td>No</td>
+    <td class="nowrap"></td>
+            <td>วันที่ออกใบ RT</td>
+</tr>
+        <tr class="even">
+    <td class="nowrap">
+        rt_qty    </td>
+    <td class="nowrap" lang="en" dir="ltr">int(11)</td>
+    <td>No</td>
+    <td class="nowrap"></td>
+            <td>quantity of RT</td>
+</tr>
+        <tr class="odd">
+    <td class="nowrap">
+        rt_success    </td>
+    <td class="nowrap" lang="en" dir="ltr">tinyint(4)</td>
+    <td>No</td>
+    <td class="nowrap">1</td>
+            <td>สถานะได้ของครบหรือไม่ 0=success, 1=unsuccess</td>
+</tr>
+        <tr class="even">
+    <td class="nowrap">
+        barcode    </td>
+    <td class="nowrap" lang="en" dir="ltr">varchar(100)</td>
+    <td>No</td>
+    <td class="nowrap"></td>
+            <td>รหัสสินค้า</td>
+</tr>
+        <tr class="odd">
+    <td class="nowrap">
+        goods_name    </td>
+    <td class="nowrap" lang="en" dir="ltr">text</td>
+    <td>No</td>
+    <td class="nowrap"></td>
+            <td>ชื่อสินค้า</td>
+</tr>
+        <tr class="even">
+    <td class="nowrap">
+        unit    </td>
+    <td class="nowrap" lang="en" dir="ltr">varchar(100)</td>
+    <td>No</td>
+    <td class="nowrap"></td>
+            <td>หน่วยสินค้า</td>
+</tr>
+        <tr class="odd">
+    <td class="nowrap">
+        qty_amount    </td>
+    <td class="nowrap" lang="en" dir="ltr">int(11)</td>
+    <td>No</td>
+    <td class="nowrap"></td>
+            <td>จำนวนสินค้าทั้งหมดที่มีอยู่จริง</td>
+</tr>
+        <tr class="even">
+    <td class="nowrap">
+        remark    </td>
+    <td class="nowrap" lang="en" dir="ltr">text</td>
+    <td>Yes</td>
+    <td class="nowrap"><i>NULL</i></td>
+            <td>หมายเหตุ/note</td>
+</tr>
+        <tr class="odd">
+    <td class="nowrap">
+        date_create    </td>
+    <td class="nowrap" lang="en" dir="ltr">datetime</td>
+    <td>No</td>
+    <td class="nowrap"></td>
+            <td>วันที่สร้าง record</td>
+</tr>
+        <tr class="even">
+    <td class="nowrap">
+        status    </td>
+    <td class="nowrap" lang="en" dir="ltr">tinyint(4)</td>
+    <td>No</td>
+    <td class="nowrap">0</td>
+            <td>0=active, 1=inactive</td>
+</tr>
+        </tbody></table>
+<h3>Indexes</h3><div class="no_indexes_defined hide"><div class="notice"><img src="./Thaimart DataDic_files/dot.gif" title="" alt="" class="icon ic_s_notice"> No index defined!</div></div><table id="table_index"><thead><tr><th>Keyname</th><th>Type</th><th>Unique</th><th>Packed</th><th>Column</th><th>Cardinality</th><th>Collation</th><th>Null</th></tr></thead><tbody><tr class="noclick odd"><td rowspan="1">PRIMARY</td><td rowspan="1">BTREE</td><td rowspan="1">Yes</td><td rowspan="1">No</td><td>id</td><td>32</td><td>A</td><td>No</td></tr></tbody></table></div>
+    <div>
+<h2>outbound_rt_status</h2>
+Table comments: rt status<br><br>
+<table width="100%" class="print">
+<tbody><tr><th width="50">Column</th>
+    <th width="80">Type</th>
+    <th width="40">Null</th>
+    <th width="70">Default</th>
+        <th>Comments</th>
+</tr>
+    <tr class="odd">
+    <td class="nowrap">
+        id    </td>
+    <td class="nowrap" lang="en" dir="ltr">int(11)</td>
+    <td>No</td>
+    <td class="nowrap"></td>
+            <td></td>
+</tr>
+        <tr class="even">
+    <td class="nowrap">
+        rt_id    </td>
+    <td class="nowrap" lang="en" dir="ltr">varchar(50)</td>
+    <td>No</td>
+    <td class="nowrap"></td>
+            <td>รหัส ใบ rt </td>
+</tr>
+        <tr class="odd">
+    <td class="nowrap">
+        rt_branch    </td>
+    <td class="nowrap" lang="en" dir="ltr">varchar(50)</td>
+    <td>Yes</td>
+    <td class="nowrap"><i>NULL</i></td>
+            <td>รหัสสาขา</td>
+</tr>
+        <tr class="even">
+    <td class="nowrap">
+        rt_date    </td>
+    <td class="nowrap" lang="en" dir="ltr">datetime</td>
+    <td>No</td>
+    <td class="nowrap"></td>
+            <td>วันที่สร้าง rt </td>
+</tr>
+        <tr class="odd">
+    <td class="nowrap">
+        rt_product_amount    </td>
+    <td class="nowrap" lang="en" dir="ltr">int(11)</td>
+    <td>No</td>
+    <td class="nowrap"></td>
+            <td>จำนวนรายการสินค้า</td>
+</tr>
+        <tr class="even">
+    <td class="nowrap">
+        sum_product    </td>
+    <td class="nowrap" lang="en" dir="ltr">int(11)</td>
+    <td>No</td>
+    <td class="nowrap"></td>
+            <td>จำนวนทั้งหมดรวมทุกรายการ</td>
+</tr>
+        <tr class="odd">
+    <td class="nowrap">
+        status    </td>
+    <td class="nowrap" lang="en" dir="ltr">int(2)</td>
+    <td>No</td>
+    <td class="nowrap"></td>
+            <td>1เลือกตำแหน่งของ2=ดึงของเสร็จ 3=เช็คของเสร็จ 4.เลือกรถเสร็จ 5.รถออก6.รถถึงที่ 7.รับของ</td>
+</tr>
+        <tr class="even">
+    <td class="nowrap">
+        user_id    </td>
+    <td class="nowrap" lang="en" dir="ltr">int(11)</td>
+    <td>No</td>
+    <td class="nowrap"></td>
+            <td></td>
+</tr>
+        <tr class="odd">
+    <td class="nowrap">
+        update_time    </td>
+    <td class="nowrap" lang="en" dir="ltr">datetime</td>
+    <td>No</td>
+    <td class="nowrap"></td>
+            <td></td>
+</tr>
+        <tr class="even">
+    <td class="nowrap">
+        time_out_car    </td>
+    <td class="nowrap" lang="en" dir="ltr">datetime</td>
+    <td>No</td>
+    <td class="nowrap"></td>
+            <td>เวลารถออก</td>
+</tr>
+        <tr class="odd">
+    <td class="nowrap">
+        time_branch_confirm    </td>
+    <td class="nowrap" lang="en" dir="ltr">datetime</td>
+    <td>No</td>
+    <td class="nowrap"></td>
+            <td>เวลาที่สาขารับของ</td>
+</tr>
+        <tr class="even">
+    <td class="nowrap">
+        note_confirm_branch    </td>
+    <td class="nowrap" lang="en" dir="ltr">text</td>
+    <td>No</td>
+    <td class="nowrap"></td>
+            <td>note สาขารับของ</td>
+</tr>
+        </tbody></table>
+<h3>Indexes</h3><div class="no_indexes_defined hide"><div class="notice"><img src="./Thaimart DataDic_files/dot.gif" title="" alt="" class="icon ic_s_notice"> No index defined!</div></div><table id="table_index"><thead><tr><th>Keyname</th><th>Type</th><th>Unique</th><th>Packed</th><th>Column</th><th>Cardinality</th><th>Collation</th><th>Null</th></tr></thead><tbody><tr class="noclick odd"><td rowspan="1">PRIMARY</td><td rowspan="1">BTREE</td><td rowspan="1">Yes</td><td rowspan="1">No</td><td>id</td><td>11</td><td>A</td><td>No</td></tr></tbody></table></div>
+    <div>
+<h2>stock_list</h2>
+Table comments: ตาราง ลิส item<br><br>
+<table width="100%" class="print">
+<tbody><tr><th width="50">Column</th>
+    <th width="80">Type</th>
+    <th width="40">Null</th>
+    <th width="70">Default</th>
+        <th>Comments</th>
+</tr>
+    <tr class="odd">
+    <td class="nowrap">
+        list_id    </td>
+    <td class="nowrap" lang="en" dir="ltr">int(11)</td>
+    <td>No</td>
+    <td class="nowrap"></td>
+            <td></td>
+</tr>
+        <tr class="even">
+    <td class="nowrap">
+        po_id    </td>
+    <td class="nowrap" lang="en" dir="ltr">varchar(100)</td>
+    <td>No</td>
+    <td class="nowrap"></td>
+            <td></td>
+</tr>
+        <tr class="odd">
+    <td class="nowrap">
+        barcode_item    </td>
+    <td class="nowrap" lang="en" dir="ltr">int(11)</td>
+    <td>No</td>
+    <td class="nowrap"></td>
+            <td></td>
+</tr>
+        <tr class="even">
+    <td class="nowrap">
+        supplier_id    </td>
+    <td class="nowrap" lang="en" dir="ltr">int(11)</td>
+    <td>No</td>
+    <td class="nowrap"></td>
+            <td>id ผู้ผลิต</td>
+</tr>
+        <tr class="odd">
+    <td class="nowrap">
+        location_shelf_id    </td>
+    <td class="nowrap" lang="en" dir="ltr">int(11)</td>
+    <td>No</td>
+    <td class="nowrap"></td>
+            <td></td>
+</tr>
+        <tr class="even">
+    <td class="nowrap">
+        qty    </td>
+    <td class="nowrap" lang="en" dir="ltr">int(11)</td>
+    <td>No</td>
+    <td class="nowrap"></td>
+            <td></td>
+</tr>
+        <tr class="odd">
+    <td class="nowrap">
+        unit    </td>
+    <td class="nowrap" lang="en" dir="ltr">varchar(50)</td>
+    <td>No</td>
+    <td class="nowrap"></td>
+            <td></td>
+</tr>
+        <tr class="even">
+    <td class="nowrap">
+        user_id    </td>
+    <td class="nowrap" lang="en" dir="ltr">int(11)</td>
+    <td>No</td>
+    <td class="nowrap"></td>
+            <td>คนเก็บ</td>
+</tr>
+        </tbody></table>
+<h3>Indexes</h3><div class="no_indexes_defined hide"><div class="notice"><img src="./Thaimart DataDic_files/dot.gif" title="" alt="" class="icon ic_s_notice"> No index defined!</div></div><table id="table_index"><thead><tr><th>Keyname</th><th>Type</th><th>Unique</th><th>Packed</th><th>Column</th><th>Cardinality</th><th>Collation</th><th>Null</th></tr></thead><tbody><tr class="noclick odd"><td rowspan="1">PRIMARY</td><td rowspan="1">BTREE</td><td rowspan="1">Yes</td><td rowspan="1">No</td><td>list_id</td><td>0</td><td>A</td><td>No</td></tr></tbody></table></div>
+    <div>
+<h2>stock_product</h2>
+Table comments: ตาราง จำนวนของสินต้าทั้งหมด<br><br>
+<table width="100%" class="print">
+<tbody><tr><th width="50">Column</th>
+    <th width="80">Type</th>
+    <th width="40">Null</th>
+    <th width="70">Default</th>
+        <th>Comments</th>
+</tr>
+    <tr class="odd">
+    <td class="nowrap">
+        product_id    </td>
+    <td class="nowrap" lang="en" dir="ltr">varchar(100)</td>
+    <td>No</td>
+    <td class="nowrap"></td>
+            <td></td>
+</tr>
+        <tr class="even">
+    <td class="nowrap">
+        product_name    </td>
+    <td class="nowrap" lang="en" dir="ltr">varchar(100)</td>
+    <td>No</td>
+    <td class="nowrap"></td>
+            <td></td>
+</tr>
+        <tr class="odd">
+    <td class="nowrap">
+        product_unit    </td>
+    <td class="nowrap" lang="en" dir="ltr">varchar(50)</td>
+    <td>No</td>
+    <td class="nowrap"></td>
+            <td></td>
+</tr>
+        <tr class="even">
+    <td class="nowrap">
+        product_qty    </td>
+    <td class="nowrap" lang="en" dir="ltr">int(11)</td>
+    <td>No</td>
+    <td class="nowrap"></td>
+            <td></td>
+</tr>
+        <tr class="odd">
+    <td class="nowrap">
+        product_update    </td>
+    <td class="nowrap" lang="en" dir="ltr">datetime</td>
+    <td>No</td>
+    <td class="nowrap"></td>
+            <td></td>
+</tr>
+        <tr class="even">
+    <td class="nowrap">
+        user_id    </td>
+    <td class="nowrap" lang="en" dir="ltr">int(11)</td>
+    <td>No</td>
+    <td class="nowrap"></td>
+            <td></td>
+</tr>
+        <tr class="odd">
+    <td class="nowrap">
+        note    </td>
+    <td class="nowrap" lang="en" dir="ltr">text</td>
+    <td>No</td>
+    <td class="nowrap"></td>
+            <td></td>
+</tr>
+        </tbody></table>
+</div>
+    <div>
+<h2>stock_product_log</h2>
+
+<table width="100%" class="print">
+<tbody><tr><th width="50">Column</th>
+    <th width="80">Type</th>
+    <th width="40">Null</th>
+    <th width="70">Default</th>
+        <th>Comments</th>
+</tr>
+    <tr class="odd">
+    <td class="nowrap">
+        log_id    </td>
+    <td class="nowrap" lang="en" dir="ltr">int(11)</td>
+    <td>No</td>
+    <td class="nowrap"></td>
+            <td></td>
+</tr>
+        <tr class="even">
+    <td class="nowrap">
+        product_id    </td>
+    <td class="nowrap" lang="en" dir="ltr">varchar(11)</td>
+    <td>No</td>
+    <td class="nowrap"></td>
+            <td></td>
+</tr>
+        <tr class="odd">
+    <td class="nowrap">
+        product_qty    </td>
+    <td class="nowrap" lang="en" dir="ltr">int(11)</td>
+    <td>No</td>
+    <td class="nowrap"></td>
+            <td></td>
+</tr>
+        <tr class="even">
+    <td class="nowrap">
+        stock_update    </td>
+    <td class="nowrap" lang="en" dir="ltr">datetime</td>
+    <td>No</td>
+    <td class="nowrap"></td>
+            <td>วันที่ update</td>
+</tr>
+        <tr class="odd">
+    <td class="nowrap">
+        user_id    </td>
+    <td class="nowrap" lang="en" dir="ltr">int(11)</td>
+    <td>No</td>
+    <td class="nowrap"></td>
+            <td>user update</td>
+</tr>
+        </tbody></table>
+<h3>Indexes</h3><div class="no_indexes_defined hide"><div class="notice"><img src="./Thaimart DataDic_files/dot.gif" title="" alt="" class="icon ic_s_notice"> No index defined!</div></div><table id="table_index"><thead><tr><th>Keyname</th><th>Type</th><th>Unique</th><th>Packed</th><th>Column</th><th>Cardinality</th><th>Collation</th><th>Null</th></tr></thead><tbody><tr class="noclick odd"><td rowspan="1">PRIMARY</td><td rowspan="1">BTREE</td><td rowspan="1">Yes</td><td rowspan="1">No</td><td>log_id</td><td>2</td><td>A</td><td>No</td></tr></tbody></table></div>
+    <div>
+<h2>tb_address</h2>
+
+<table width="100%" class="print">
+<tbody><tr><th width="50">Column</th>
+    <th width="80">Type</th>
+    <th width="40">Null</th>
+    <th width="70">Default</th>
+        <th>Comments</th>
+</tr>
+    <tr class="odd">
+    <td class="nowrap">
+        add_id    </td>
+    <td class="nowrap" lang="en" dir="ltr">int(11)</td>
+    <td>No</td>
+    <td class="nowrap"></td>
+            <td>Primary</td>
+</tr>
+        <tr class="even">
+    <td class="nowrap">
+        add_name    </td>
+    <td class="nowrap" lang="en" dir="ltr">varchar(250)</td>
+    <td>No</td>
+    <td class="nowrap"></td>
+            <td>ชื่อ</td>
+</tr>
+        <tr class="odd">
+    <td class="nowrap">
+        datecreate    </td>
+    <td class="nowrap" lang="en" dir="ltr">datetime</td>
+    <td>No</td>
+    <td class="nowrap"></td>
+            <td>วันที่สร้าง record</td>
+</tr>
+        <tr class="even">
+    <td class="nowrap">
+        dateupdate    </td>
+    <td class="nowrap" lang="en" dir="ltr">datetime</td>
+    <td>No</td>
+    <td class="nowrap"></td>
+            <td>วันที่แก้ไข record</td>
+</tr>
+        <tr class="odd">
+    <td class="nowrap">
+        blank_status    </td>
+    <td class="nowrap" lang="en" dir="ltr">tinyint(4)</td>
+    <td>No</td>
+    <td class="nowrap">1</td>
+            <td>สถานะที่เก็บสินค้า ว่างหรือมีของเก็บอยู่ 0-blank,1-notblank</td>
+</tr>
+        <tr class="even">
+    <td class="nowrap">
+        status    </td>
+    <td class="nowrap" lang="en" dir="ltr">int(2)</td>
+    <td>No</td>
+    <td class="nowrap">0</td>
+            <td>0-active, 1-inactive</td>
+</tr>
+        </tbody></table>
+<h3>Indexes</h3><div class="no_indexes_defined hide"><div class="notice"><img src="./Thaimart DataDic_files/dot.gif" title="" alt="" class="icon ic_s_notice"> No index defined!</div></div><table id="table_index"><thead><tr><th>Keyname</th><th>Type</th><th>Unique</th><th>Packed</th><th>Column</th><th>Cardinality</th><th>Collation</th><th>Null</th></tr></thead><tbody><tr class="noclick odd"><td rowspan="1">PRIMARY</td><td rowspan="1">BTREE</td><td rowspan="1">Yes</td><td rowspan="1">No</td><td>add_id</td><td>4179</td><td>A</td><td>No</td></tr><tr class="noclick even"><td rowspan="1">add_id</td><td rowspan="1">BTREE</td><td rowspan="1">No</td><td rowspan="1">No</td><td>add_id</td><td>4179</td><td>A</td><td>No</td></tr><tr class="noclick odd"><td rowspan="1">add_name</td><td rowspan="1">BTREE</td><td rowspan="1">No</td><td rowspan="1">No</td><td>add_name</td><td>4179</td><td>A</td><td>No</td></tr><tr class="noclick even"><td rowspan="2">add_id_2</td><td rowspan="2">BTREE</td><td rowspan="2">No</td><td rowspan="2">No</td><td>add_id</td><td>4179</td><td>A</td><td>No</td></tr><tr class="noclick even"><td>add_name</td><td>4179</td><td>A</td><td>No</td></tr></tbody></table></div>
+    <div>
+<h2>tb_cat</h2>
+
+<table width="100%" class="print">
+<tbody><tr><th width="50">Column</th>
+    <th width="80">Type</th>
+    <th width="40">Null</th>
+    <th width="70">Default</th>
+        <th>Comments</th>
+</tr>
+    <tr class="odd">
+    <td class="nowrap">
+        cat_id    </td>
+    <td class="nowrap" lang="en" dir="ltr">int(11)</td>
+    <td>No</td>
+    <td class="nowrap"></td>
+            <td></td>
+</tr>
+        <tr class="even">
+    <td class="nowrap">
+        cat_name    </td>
+    <td class="nowrap" lang="en" dir="ltr">varchar(250)</td>
+    <td>No</td>
+    <td class="nowrap"></td>
+            <td></td>
+</tr>
+        <tr class="odd">
+    <td class="nowrap">
+        datecreate    </td>
+    <td class="nowrap" lang="en" dir="ltr">datetime</td>
+    <td>No</td>
+    <td class="nowrap"></td>
+            <td></td>
+</tr>
+        <tr class="even">
+    <td class="nowrap">
+        dateupdate    </td>
+    <td class="nowrap" lang="en" dir="ltr">datetime</td>
+    <td>No</td>
+    <td class="nowrap"></td>
+            <td></td>
+</tr>
+        <tr class="odd">
+    <td class="nowrap">
+        status    </td>
+    <td class="nowrap" lang="en" dir="ltr">int(11)</td>
+    <td>No</td>
+    <td class="nowrap"></td>
+            <td></td>
+</tr>
+        </tbody></table>
+<h3>Indexes</h3><div class="no_indexes_defined hide"><div class="notice"><img src="./Thaimart DataDic_files/dot.gif" title="" alt="" class="icon ic_s_notice"> No index defined!</div></div><table id="table_index"><thead><tr><th>Keyname</th><th>Type</th><th>Unique</th><th>Packed</th><th>Column</th><th>Cardinality</th><th>Collation</th><th>Null</th></tr></thead><tbody><tr class="noclick odd"><td rowspan="1">PRIMARY</td><td rowspan="1">BTREE</td><td rowspan="1">Yes</td><td rowspan="1">No</td><td>cat_id</td><td>10</td><td>A</td><td>No</td></tr><tr class="noclick even"><td rowspan="1">cat_name</td><td rowspan="1">BTREE</td><td rowspan="1">No</td><td rowspan="1">No</td><td>cat_name</td><td></td><td>A</td><td>No</td></tr><tr class="noclick odd"><td rowspan="1">cat_id</td><td rowspan="1">BTREE</td><td rowspan="1">No</td><td rowspan="1">No</td><td>cat_id</td><td></td><td>A</td><td>No</td></tr></tbody></table></div>
+    <div>
+<h2>tb_cat_address</h2>
+
+<table width="100%" class="print">
+<tbody><tr><th width="50">Column</th>
+    <th width="80">Type</th>
+    <th width="40">Null</th>
+    <th width="70">Default</th>
+        <th>Comments</th>
+</tr>
+    <tr class="odd">
+    <td class="nowrap">
+        id    </td>
+    <td class="nowrap" lang="en" dir="ltr">int(11)</td>
+    <td>No</td>
+    <td class="nowrap"></td>
+            <td></td>
+</tr>
+        <tr class="even">
+    <td class="nowrap">
+        cat_id    </td>
+    <td class="nowrap" lang="en" dir="ltr">int(11)</td>
+    <td>No</td>
+    <td class="nowrap"></td>
+            <td></td>
+</tr>
+        <tr class="odd">
+    <td class="nowrap">
+        add_id    </td>
+    <td class="nowrap" lang="en" dir="ltr">int(11)</td>
+    <td>No</td>
+    <td class="nowrap"></td>
+            <td></td>
+</tr>
+        <tr class="even">
+    <td class="nowrap">
+        datecreate    </td>
+    <td class="nowrap" lang="en" dir="ltr">datetime</td>
+    <td>No</td>
+    <td class="nowrap"></td>
+            <td></td>
+</tr>
+        <tr class="odd">
+    <td class="nowrap">
+        dateupdate    </td>
+    <td class="nowrap" lang="en" dir="ltr">datetime</td>
+    <td>No</td>
+    <td class="nowrap"></td>
+            <td></td>
+</tr>
+        <tr class="even">
+    <td class="nowrap">
+        status    </td>
+    <td class="nowrap" lang="en" dir="ltr">int(11)</td>
+    <td>No</td>
+    <td class="nowrap"></td>
+            <td></td>
+</tr>
+        </tbody></table>
+<h3>Indexes</h3><div class="no_indexes_defined hide"><div class="notice"><img src="./Thaimart DataDic_files/dot.gif" title="" alt="" class="icon ic_s_notice"> No index defined!</div></div><table id="table_index"><thead><tr><th>Keyname</th><th>Type</th><th>Unique</th><th>Packed</th><th>Column</th><th>Cardinality</th><th>Collation</th><th>Null</th></tr></thead><tbody><tr class="noclick odd"><td rowspan="1">PRIMARY</td><td rowspan="1">BTREE</td><td rowspan="1">Yes</td><td rowspan="1">No</td><td>id</td><td>9164</td><td>A</td><td>No</td></tr><tr class="noclick even"><td rowspan="1">add_id</td><td rowspan="1">BTREE</td><td rowspan="1">No</td><td rowspan="1">No</td><td>add_id</td><td>4582</td><td>A</td><td>No</td></tr><tr class="noclick odd"><td rowspan="1">cat_id</td><td rowspan="1">BTREE</td><td rowspan="1">No</td><td rowspan="1">No</td><td>cat_id</td><td>10</td><td>A</td><td>No</td></tr></tbody></table></div>
+    <div>
+<h2>user</h2>
+
+<table width="100%" class="print">
+<tbody><tr><th width="50">Column</th>
+    <th width="80">Type</th>
+    <th width="40">Null</th>
+    <th width="70">Default</th>
+        <th>Comments</th>
+</tr>
+    <tr class="odd">
+    <td class="nowrap">
+        user_id    </td>
+    <td class="nowrap" lang="en" dir="ltr">int(11)</td>
+    <td>No</td>
+    <td class="nowrap"></td>
+            <td></td>
+</tr>
+        <tr class="even">
+    <td class="nowrap">
+        user_pname    </td>
+    <td class="nowrap" lang="en" dir="ltr">varchar(100)</td>
+    <td>No</td>
+    <td class="nowrap"></td>
+            <td></td>
+</tr>
+        <tr class="odd">
+    <td class="nowrap">
+        user_fname    </td>
+    <td class="nowrap" lang="en" dir="ltr">varchar(150)</td>
+    <td>No</td>
+    <td class="nowrap"></td>
+            <td></td>
+</tr>
+        <tr class="even">
+    <td class="nowrap">
+        user_lname    </td>
+    <td class="nowrap" lang="en" dir="ltr">varchar(150)</td>
+    <td>No</td>
+    <td class="nowrap"></td>
+            <td></td>
+</tr>
+        <tr class="odd">
+    <td class="nowrap">
+        user_username    </td>
+    <td class="nowrap" lang="en" dir="ltr">varchar(150)</td>
+    <td>No</td>
+    <td class="nowrap"></td>
+            <td></td>
+</tr>
+        <tr class="even">
+    <td class="nowrap">
+        user_password    </td>
+    <td class="nowrap" lang="en" dir="ltr">varchar(150)</td>
+    <td>No</td>
+    <td class="nowrap"></td>
+            <td></td>
+</tr>
+        <tr class="odd">
+    <td class="nowrap">
+        user_permit_level    </td>
+    <td class="nowrap" lang="en" dir="ltr">int(11)</td>
+    <td>No</td>
+    <td class="nowrap"></td>
+            <td></td>
+</tr>
+        <tr class="even">
+    <td class="nowrap">
+        branch_id    </td>
+    <td class="nowrap" lang="en" dir="ltr">int(11)</td>
+    <td>Yes</td>
+    <td class="nowrap"><i>NULL</i></td>
+            <td>id สาขาที่อยุ่</td>
+</tr>
+        <tr class="odd">
+    <td class="nowrap">
+        car_id    </td>
+    <td class="nowrap" lang="en" dir="ltr">int(11)</td>
+    <td>Yes</td>
+    <td class="nowrap"><i>NULL</i></td>
+            <td>คนขับรถ</td>
+</tr>
+        <tr class="even">
+    <td class="nowrap">
+        datecreate    </td>
+    <td class="nowrap" lang="en" dir="ltr">datetime</td>
+    <td>No</td>
+    <td class="nowrap"></td>
+            <td></td>
+</tr>
+        <tr class="odd">
+    <td class="nowrap">
+        dateupdate    </td>
+    <td class="nowrap" lang="en" dir="ltr">datetime</td>
+    <td>No</td>
+    <td class="nowrap"></td>
+            <td></td>
+</tr>
+        <tr class="even">
+    <td class="nowrap">
+        status    </td>
+    <td class="nowrap" lang="en" dir="ltr">int(11)</td>
+    <td>No</td>
+    <td class="nowrap"></td>
+            <td></td>
+</tr>
+        </tbody></table>
+<h3>Indexes</h3><div class="no_indexes_defined hide"><div class="notice"><img src="./Thaimart DataDic_files/dot.gif" title="" alt="" class="icon ic_s_notice"> No index defined!</div></div><table id="table_index"><thead><tr><th>Keyname</th><th>Type</th><th>Unique</th><th>Packed</th><th>Column</th><th>Cardinality</th><th>Collation</th><th>Null</th></tr></thead><tbody><tr class="noclick odd"><td rowspan="1">PRIMARY</td><td rowspan="1">BTREE</td><td rowspan="1">Yes</td><td rowspan="1">No</td><td>user_id</td><td>4</td><td>A</td><td>No</td></tr><tr class="noclick even"><td rowspan="1">user_pname</td><td rowspan="1">BTREE</td><td rowspan="1">No</td><td rowspan="1">No</td><td>user_pname</td><td></td><td>A</td><td>No</td></tr><tr class="noclick odd"><td rowspan="1">user_fname</td><td rowspan="1">BTREE</td><td rowspan="1">No</td><td rowspan="1">No</td><td>user_fname</td><td></td><td>A</td><td>No</td></tr><tr class="noclick even"><td rowspan="1">user_lname</td><td rowspan="1">BTREE</td><td rowspan="1">No</td><td rowspan="1">No</td><td>user_lname</td><td></td><td>A</td><td>No</td></tr><tr class="noclick odd"><td rowspan="1">user_username</td><td rowspan="1">BTREE</td><td rowspan="1">No</td><td rowspan="1">No</td><td>user_username</td><td></td><td>A</td><td>No</td></tr><tr class="noclick even"><td rowspan="1">user_password</td><td rowspan="1">BTREE</td><td rowspan="1">No</td><td rowspan="1">No</td><td>user_password</td><td></td><td>A</td><td>No</td></tr><tr class="noclick odd"><td rowspan="1">user_permit_level</td><td rowspan="1">BTREE</td><td rowspan="1">No</td><td rowspan="1">No</td><td>user_permit_level</td><td></td><td>A</td><td>No</td></tr></tbody></table></div>
+    <p class="print_ignore"><input type="button" class="button" id="print" value="Print"></p></div><div id="selflink" class="print_ignore"><a href="http://192.168.1.111/phpmyadmin/index.php?db=thaimart&table=user&server=1&target=db_datadict.php&token=d0bc4c7b48082d89ec181f168d30f82d" title="Open new phpMyAdmin window" target="_blank"><img src="./Thaimart DataDic_files/dot.gif" title="Open new phpMyAdmin window" alt="Open new phpMyAdmin window" class="icon ic_window-new"></a></div><script type="text/javascript">// <![CDATA[
+AJAX.cache.primer = { url: "index.php?db=thaimart&table=user&server=1&target=db_datadict.php&token=d0bc4c7b48082d89ec181f168d30f82d", scripts: [{"name":"jquery\/jquery-1.8.3.min.js","fire":0},{"name":"ajax.js","fire":0},{"name":"keyhandler.js","fire":1},{"name":"jquery\/jquery-ui-1.9.2.custom.min.js","fire":0},{"name":"jquery\/jquery.sprintf.js","fire":0},{"name":"jquery\/jquery.cookie.js","fire":0},{"name":"jquery\/jquery.mousewheel.js","fire":0},{"name":"jquery\/jquery.event.drag-2.2.js","fire":0},{"name":"jquery\/jquery-ui-timepicker-addon.js","fire":0},{"name":"jquery\/jquery.ba-hashchange-1.3.js","fire":0},{"name":"jquery\/jquery.debounce-1.0.5.js","fire":0},{"name":"jquery\/jquery.menuResizer-1.0.js","fire":0},{"name":"cross_framing_protection.js","fire":0},{"name":"rte.js","fire":1},{"name":"functions.js","fire":1},{"name":"navigation.js","fire":0},{"name":"indexes.js","fire":1},{"name":"common.js","fire":1},{"name":"codemirror\/lib\/codemirror.js","fire":0},{"name":"codemirror\/mode\/mysql\/mysql.js","fire":0}], menuHash: "8abca549"};
+AJAX.scriptHandler;
+$(function() {});
+// ]]></script></body></html>

@@ -1,0 +1,16 @@
+body{
+    font-size:10px;
+}
+#menu-name {
+    float:left;
+    width:100px;
+    height: 30px;
+    text-align:left;
+    font-size: 14px;
+    font-weight: bold;
+}
+#menu-back {
+    float:left;
+    width:120px;
+    text-align:right;
+}

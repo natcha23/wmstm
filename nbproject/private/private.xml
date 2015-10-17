@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file://GREEN-PC/htdocs/thaimart/func.php</file>
+            <file>file://GREEN-PC/htdocs/thaimart/show/inbound/inbound_items.php</file>
+            <file>file://GREEN-PC/htdocs/thaimart/handheld/ajax/get_product_in_location.php</file>
+            <file>file://GREEN-PC/htdocs/thaimart/show/inbound/inbound_po.php</file>
+            <file>file://GREEN-PC/htdocs/thaimart/handheld/move_product_location.php</file>
+            <file>file://GREEN-PC/htdocs/thaimart/handheld/action_move_product.php</file>
+            <file>file://GREEN-PC/htdocs/thaimart/show/inbound/inbound_start.php</file>
+            <file>file://GREEN-PC/htdocs/thaimart/show/inbound/inbound_items_show.php</file>
+            <file>file://GREEN-PC/htdocs/thaimart/handheld/ajax/get_product_in_pallet.php</file>
+            <file>file://GREEN-PC/htdocs/thaimart/show/inbound/pallet_manage.php</file>
+            <file>file://GREEN-PC/htdocs/thaimart/handheld/action_put_pallet_to_location.php</file>
+            <file>file://GREEN-PC/htdocs/thaimart/handheld/put_pallet_to_location.php</file>
+            <file>file://GREEN-PC/htdocs/thaimart/handheld/inbound_action.php</file>
+        </group>
+    </open-files>
+</project-private>
